@@ -12,6 +12,31 @@ let package = Package(
             targets: ["InputBarAccessoryView"])
     ],
     targets: [
+        .target(name: "InputBarAccessoryView", dependencies: [])
+    ],
+    swiftLanguageVersions: [.v5]
+)
+
+
+/*
+    targets: [
+        .target(name: "MessageKit", dependencies: []),
+        .testTarget(name: "MessageKitTests", dependencies: ["MessageKit"])
+    ],
+
+*/
+
+/*
+
+let package = Package(
+    name: "InputBarAccessoryView",
+    platforms: [.iOS(.v11)],
+    products: [
+        .library(
+            name: "InputBarAccessoryView",
+            targets: ["InputBarAccessoryView"])
+    ],
+    targets: [
         .target(
             name: "InputBarAccessoryView",
             path: "Sources",
@@ -20,3 +45,5 @@ let package = Package(
     ],
     swiftLanguageVersions: [.v5]
 )
+
+*/
